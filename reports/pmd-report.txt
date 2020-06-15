@@ -1,0 +1,1008 @@
+src/controlador/ControladorBD.java:7:	UnusedImports: Avoid unused imports such as 'java.nio.Buffer'
+src/controlador/ControladorBD.java:7:	UnusedImports: Avoid unused imports such as 'java.nio.Buffer'
+src/controlador/ControladorBD.java:20:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/controlador/ControladorBD.java:20:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/controlador/ControladorBD.java:20:	CommentRequired: Class comments are required
+src/controlador/ControladorBD.java:20:	CommentRequired: Class comments are required
+src/controlador/ControladorBD.java:28:	ExcessiveMethodLength: Avoid really long methods.
+src/controlador/ControladorBD.java:28:	ExcessiveMethodLength: Avoid really long methods.
+src/controlador/ControladorBD.java:29:	LocalVariableCouldBeFinal: Local variable 'lista_Preguntas' could be declared final
+src/controlador/ControladorBD.java:29:	LocalVariableCouldBeFinal: Local variable 'lista_Preguntas' could be declared final
+src/controlador/ControladorBD.java:29:	LocalVariableNamingConventions: The local variable name 'lista_Preguntas' doesn't match '[a-z][a-zA-Z0-9]*'
+src/controlador/ControladorBD.java:29:	LocalVariableNamingConventions: The local variable name 'lista_Preguntas' doesn't match '[a-z][a-zA-Z0-9]*'
+src/controlador/ControladorBD.java:29:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/controlador/ControladorBD.java:29:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/controlador/ControladorBD.java:29:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'lista_Preguntas' is not final.
+src/controlador/ControladorBD.java:29:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'lista_Preguntas' is not final.
+src/controlador/ControladorBD.java:33:	LocalVariableCouldBeFinal: Local variable 'numero' could be declared final
+src/controlador/ControladorBD.java:33:	LocalVariableCouldBeFinal: Local variable 'numero' could be declared final
+src/controlador/ControladorBD.java:34:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'parOimpar' (lines '34'-'36').
+src/controlador/ControladorBD.java:34:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'parOimpar' (lines '34'-'36').
+src/controlador/ControladorBD.java:34:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'parOimpar' (lines '34'-'38').
+src/controlador/ControladorBD.java:34:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'parOimpar' (lines '34'-'38').
+src/controlador/ControladorBD.java:42:	LocalVariableCouldBeFinal: Local variable 'sql' could be declared final
+src/controlador/ControladorBD.java:42:	LocalVariableCouldBeFinal: Local variable 'sql' could be declared final
+src/controlador/ControladorBD.java:43:	SystemPrintln: System.out.println is used
+src/controlador/ControladorBD.java:43:	SystemPrintln: System.out.println is used
+src/controlador/ControladorBD.java:44:	CloseResource: Ensure that resources like this Connection object are closed after use
+src/controlador/ControladorBD.java:44:	CloseResource: Ensure that resources like this Connection object are closed after use
+src/controlador/ControladorBD.java:44:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'con' (lines '44'-'46').
+src/controlador/ControladorBD.java:44:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'con' (lines '44'-'46').
+src/controlador/ControladorBD.java:45:	UseTryWithResources: Consider using a try-with-resources statement instead of explicitly closing the resource
+src/controlador/ControladorBD.java:45:	UseTryWithResources: Consider using a try-with-resources statement instead of explicitly closing the resource
+src/controlador/ControladorBD.java:47:	CloseResource: Ensure that resources like this PreparedStatement object are closed after use
+src/controlador/ControladorBD.java:47:	CloseResource: Ensure that resources like this PreparedStatement object are closed after use
+src/controlador/ControladorBD.java:47:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:47:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:47:	LocalVariableCouldBeFinal: Local variable 'ps' could be declared final
+src/controlador/ControladorBD.java:47:	LocalVariableCouldBeFinal: Local variable 'ps' could be declared final
+src/controlador/ControladorBD.java:47:	ShortVariable: Avoid variables with short names like ps
+src/controlador/ControladorBD.java:47:	ShortVariable: Avoid variables with short names like ps
+src/controlador/ControladorBD.java:48:	CloseResource: Ensure that resources like this ResultSet object are closed after use
+src/controlador/ControladorBD.java:48:	CloseResource: Ensure that resources like this ResultSet object are closed after use
+src/controlador/ControladorBD.java:48:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:48:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:48:	LocalVariableCouldBeFinal: Local variable 'rs' could be declared final
+src/controlador/ControladorBD.java:48:	LocalVariableCouldBeFinal: Local variable 'rs' could be declared final
+src/controlador/ControladorBD.java:48:	ShortVariable: Avoid variables with short names like rs
+src/controlador/ControladorBD.java:48:	ShortVariable: Avoid variables with short names like rs
+src/controlador/ControladorBD.java:49:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:49:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:51:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/controlador/ControladorBD.java:51:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/controlador/ControladorBD.java:51:	LocalVariableCouldBeFinal: Local variable 'pregunta' could be declared final
+src/controlador/ControladorBD.java:51:	LocalVariableCouldBeFinal: Local variable 'pregunta' could be declared final
+src/controlador/ControladorBD.java:53:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:53:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:54:	AddEmptyString: Do not add empty strings
+src/controlador/ControladorBD.java:54:	AddEmptyString: Do not add empty strings
+src/controlador/ControladorBD.java:54:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:54:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:55:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:55:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:61:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/controlador/ControladorBD.java:61:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/controlador/ControladorBD.java:62:	SystemPrintln: System.out.println is used
+src/controlador/ControladorBD.java:62:	SystemPrintln: System.out.println is used
+src/controlador/ControladorBD.java:63:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/controlador/ControladorBD.java:63:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/controlador/ControladorBD.java:79:	ForLoopCanBeForeach: This for loop can be replaced by a foreach loop
+src/controlador/ControladorBD.java:79:	ForLoopCanBeForeach: This for loop can be replaced by a foreach loop
+src/controlador/ControladorBD.java:84:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/controlador/ControladorBD.java:84:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/controlador/ControladorBD.java:84:	LocalVariableCouldBeFinal: Local variable 'codPregunta' could be declared final
+src/controlador/ControladorBD.java:84:	LocalVariableCouldBeFinal: Local variable 'codPregunta' could be declared final
+src/controlador/ControladorBD.java:86:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/controlador/ControladorBD.java:86:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/controlador/ControladorBD.java:86:	LocalVariableCouldBeFinal: Local variable 'respuestas' could be declared final
+src/controlador/ControladorBD.java:86:	LocalVariableCouldBeFinal: Local variable 'respuestas' could be declared final
+src/controlador/ControladorBD.java:87:	LocalVariableCouldBeFinal: Local variable 'sql2' could be declared final
+src/controlador/ControladorBD.java:87:	LocalVariableCouldBeFinal: Local variable 'sql2' could be declared final
+src/controlador/ControladorBD.java:91:	CloseResource: Ensure that resources like this Connection object are closed after use
+src/controlador/ControladorBD.java:91:	CloseResource: Ensure that resources like this Connection object are closed after use
+src/controlador/ControladorBD.java:91:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'con2' (lines '91'-'93').
+src/controlador/ControladorBD.java:91:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'con2' (lines '91'-'93').
+src/controlador/ControladorBD.java:92:	UseTryWithResources: Consider using a try-with-resources statement instead of explicitly closing the resource
+src/controlador/ControladorBD.java:92:	UseTryWithResources: Consider using a try-with-resources statement instead of explicitly closing the resource
+src/controlador/ControladorBD.java:94:	CloseResource: Ensure that resources like this PreparedStatement object are closed after use
+src/controlador/ControladorBD.java:94:	CloseResource: Ensure that resources like this PreparedStatement object are closed after use
+src/controlador/ControladorBD.java:94:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:94:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:94:	LocalVariableCouldBeFinal: Local variable 'ps' could be declared final
+src/controlador/ControladorBD.java:94:	LocalVariableCouldBeFinal: Local variable 'ps' could be declared final
+src/controlador/ControladorBD.java:94:	ShortVariable: Avoid variables with short names like ps
+src/controlador/ControladorBD.java:94:	ShortVariable: Avoid variables with short names like ps
+src/controlador/ControladorBD.java:95:	CloseResource: Ensure that resources like this ResultSet object are closed after use
+src/controlador/ControladorBD.java:95:	CloseResource: Ensure that resources like this ResultSet object are closed after use
+src/controlador/ControladorBD.java:95:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:95:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:95:	LocalVariableCouldBeFinal: Local variable 'rs' could be declared final
+src/controlador/ControladorBD.java:95:	LocalVariableCouldBeFinal: Local variable 'rs' could be declared final
+src/controlador/ControladorBD.java:95:	ShortVariable: Avoid variables with short names like rs
+src/controlador/ControladorBD.java:95:	ShortVariable: Avoid variables with short names like rs
+src/controlador/ControladorBD.java:96:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:96:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:98:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/controlador/ControladorBD.java:98:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/controlador/ControladorBD.java:98:	LocalVariableCouldBeFinal: Local variable 'r' could be declared final
+src/controlador/ControladorBD.java:98:	LocalVariableCouldBeFinal: Local variable 'r' could be declared final
+src/controlador/ControladorBD.java:98:	ShortVariable: Avoid variables with short names like r
+src/controlador/ControladorBD.java:98:	ShortVariable: Avoid variables with short names like r
+src/controlador/ControladorBD.java:99:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:99:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:101:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:101:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:101:	LocalVariableCouldBeFinal: Local variable 'bandB' could be declared final
+src/controlador/ControladorBD.java:101:	LocalVariableCouldBeFinal: Local variable 'bandB' could be declared final
+src/controlador/ControladorBD.java:102:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/controlador/ControladorBD.java:102:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/controlador/ControladorBD.java:113:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/controlador/ControladorBD.java:113:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/controlador/ControladorBD.java:114:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/controlador/ControladorBD.java:114:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/controlador/ControladorBD.java:124:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/controlador/ControladorBD.java:124:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/controlador/ControladorBD.java:144:	MethodArgumentCouldBeFinal: Parameter 'string' is not assigned and could be declared final
+src/controlador/ControladorBD.java:144:	MethodArgumentCouldBeFinal: Parameter 'string' is not assigned and could be declared final
+src/controlador/ControladorBD.java:144:	MethodArgumentCouldBeFinal: Parameter 'string2' is not assigned and could be declared final
+src/controlador/ControladorBD.java:144:	MethodArgumentCouldBeFinal: Parameter 'string2' is not assigned and could be declared final
+src/controlador/ControladorBD.java:144:	MethodArgumentCouldBeFinal: Parameter 'string3' is not assigned and could be declared final
+src/controlador/ControladorBD.java:144:	MethodArgumentCouldBeFinal: Parameter 'string3' is not assigned and could be declared final
+src/controlador/ControladorBD.java:144:	MethodArgumentCouldBeFinal: Parameter 'string4' is not assigned and could be declared final
+src/controlador/ControladorBD.java:144:	MethodArgumentCouldBeFinal: Parameter 'string4' is not assigned and could be declared final
+src/controlador/ControladorBD.java:144:	MethodArgumentCouldBeFinal: Parameter 'string5' is not assigned and could be declared final
+src/controlador/ControladorBD.java:144:	MethodArgumentCouldBeFinal: Parameter 'string5' is not assigned and could be declared final
+src/controlador/ControladorBD.java:144:	UseObjectForClearerAPI: Rather than using a lot of String arguments, consider using a container object for those values.
+src/controlador/ControladorBD.java:144:	UseObjectForClearerAPI: Rather than using a lot of String arguments, consider using a container object for those values.
+src/controlador/ControladorBD.java:145:	SystemPrintln: System.out.println is used
+src/controlador/ControladorBD.java:145:	SystemPrintln: System.out.println is used
+src/controlador/ControladorBD.java:147:	CloseResource: Ensure that resources like this Connection object are closed after use
+src/controlador/ControladorBD.java:147:	CloseResource: Ensure that resources like this Connection object are closed after use
+src/controlador/ControladorBD.java:147:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'con2' (lines '147'-'153').
+src/controlador/ControladorBD.java:147:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'con2' (lines '147'-'153').
+src/controlador/ControladorBD.java:148:	LocalVariableCouldBeFinal: Local variable 'sql2' could be declared final
+src/controlador/ControladorBD.java:148:	LocalVariableCouldBeFinal: Local variable 'sql2' could be declared final
+src/controlador/ControladorBD.java:152:	UseTryWithResources: Consider using a try-with-resources statement instead of explicitly closing the resource
+src/controlador/ControladorBD.java:152:	UseTryWithResources: Consider using a try-with-resources statement instead of explicitly closing the resource
+src/controlador/ControladorBD.java:155:	CloseResource: Ensure that resources like this PreparedStatement object are closed after use
+src/controlador/ControladorBD.java:155:	CloseResource: Ensure that resources like this PreparedStatement object are closed after use
+src/controlador/ControladorBD.java:155:	LocalVariableCouldBeFinal: Local variable 'ps' could be declared final
+src/controlador/ControladorBD.java:155:	LocalVariableCouldBeFinal: Local variable 'ps' could be declared final
+src/controlador/ControladorBD.java:155:	ShortVariable: Avoid variables with short names like ps
+src/controlador/ControladorBD.java:155:	ShortVariable: Avoid variables with short names like ps
+src/controlador/ControladorBD.java:156:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:156:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:157:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:157:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:158:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:158:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:159:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:159:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:160:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:160:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:162:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:162:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:163:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/controlador/ControladorBD.java:163:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/controlador/ControladorBD.java:163:	EmptyCatchBlock: Avoid empty catch blocks
+src/controlador/ControladorBD.java:163:	EmptyCatchBlock: Avoid empty catch blocks
+src/controlador/ControladorBD.java:170:	AddEmptyString: Do not add empty strings
+src/controlador/ControladorBD.java:170:	AddEmptyString: Do not add empty strings
+src/controlador/ControladorBD.java:174:	CommentRequired: Public method and constructor comments are required
+src/controlador/ControladorBD.java:174:	CommentRequired: Public method and constructor comments are required
+src/controlador/ControladorBD.java:174:	MethodArgumentCouldBeFinal: Parameter 'text' is not assigned and could be declared final
+src/controlador/ControladorBD.java:174:	MethodArgumentCouldBeFinal: Parameter 'text' is not assigned and could be declared final
+src/controlador/ControladorBD.java:174:	MethodArgumentCouldBeFinal: Parameter 'text2' is not assigned and could be declared final
+src/controlador/ControladorBD.java:174:	MethodArgumentCouldBeFinal: Parameter 'text2' is not assigned and could be declared final
+src/controlador/ControladorBD.java:174:	MethodArgumentCouldBeFinal: Parameter 'text3' is not assigned and could be declared final
+src/controlador/ControladorBD.java:174:	MethodArgumentCouldBeFinal: Parameter 'text3' is not assigned and could be declared final
+src/controlador/ControladorBD.java:176:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/controlador/ControladorBD.java:176:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/controlador/ControladorBD.java:176:	CloseResource: Ensure that resources like this FileWriter object are closed after use
+src/controlador/ControladorBD.java:176:	CloseResource: Ensure that resources like this FileWriter object are closed after use
+src/controlador/ControladorBD.java:176:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/controlador/ControladorBD.java:176:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/controlador/ControladorBD.java:177:	CloseResource: Ensure that resources like this FileWriter object are closed after use
+src/controlador/ControladorBD.java:177:	CloseResource: Ensure that resources like this FileWriter object are closed after use
+src/controlador/ControladorBD.java:177:	LocalVariableCouldBeFinal: Local variable 'escritura' could be declared final
+src/controlador/ControladorBD.java:177:	LocalVariableCouldBeFinal: Local variable 'escritura' could be declared final
+src/controlador/ControladorBD.java:183:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/controlador/ControladorBD.java:183:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/controlador/ControladorBD.java:183:	EmptyCatchBlock: Avoid empty catch blocks
+src/controlador/ControladorBD.java:183:	EmptyCatchBlock: Avoid empty catch blocks
+src/controlador/ControladorBD.java:191:	LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+src/controlador/ControladorBD.java:191:	LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+src/controlador/ControladorBD.java:192:	LocalVariableCouldBeFinal: Local variable 'data' could be declared final
+src/controlador/ControladorBD.java:192:	LocalVariableCouldBeFinal: Local variable 'data' could be declared final
+src/controlador/ControladorBD.java:194:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/controlador/ControladorBD.java:194:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/controlador/ControladorBD.java:194:	CloseResource: Ensure that resources like this FileReader object are closed after use
+src/controlador/ControladorBD.java:194:	CloseResource: Ensure that resources like this FileReader object are closed after use
+src/controlador/ControladorBD.java:194:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/controlador/ControladorBD.java:194:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/controlador/ControladorBD.java:195:	CloseResource: Ensure that resources like this FileReader object are closed after use
+src/controlador/ControladorBD.java:195:	CloseResource: Ensure that resources like this FileReader object are closed after use
+src/controlador/ControladorBD.java:195:	LocalVariableCouldBeFinal: Local variable 'lectura' could be declared final
+src/controlador/ControladorBD.java:195:	LocalVariableCouldBeFinal: Local variable 'lectura' could be declared final
+src/controlador/ControladorBD.java:200:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:200:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/controlador/ControladorBD.java:200:	LocalVariableCouldBeFinal: Local variable 'partes' could be declared final
+src/controlador/ControladorBD.java:200:	LocalVariableCouldBeFinal: Local variable 'partes' could be declared final
+src/controlador/ControladorBD.java:201:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/controlador/ControladorBD.java:201:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/controlador/ControladorBD.java:204:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/controlador/ControladorBD.java:204:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/controlador/ControladorBD.java:205:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/controlador/ControladorBD.java:205:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/modelo/Pregunta.java:5:	CommentRequired: Class comments are required
+src/modelo/Pregunta.java:5:	CommentRequired: Class comments are required
+src/modelo/Pregunta.java:5:	DataClass: The class 'Pregunta' is suspected to be a Data Class (WOC=10.000%, NOPA=0, NOAM=8, WMC=10)
+src/modelo/Pregunta.java:5:	DataClass: The class 'Pregunta' is suspected to be a Data Class (WOC=10.000%, NOPA=0, NOAM=8, WMC=10)
+src/modelo/Pregunta.java:10:	LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+src/modelo/Pregunta.java:10:	LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+src/modelo/Pregunta.java:11:	AvoidFieldNameMatchingTypeName: It is somewhat confusing to have a field name matching the declaring class name
+src/modelo/Pregunta.java:11:	AvoidFieldNameMatchingTypeName: It is somewhat confusing to have a field name matching the declaring class name
+src/modelo/Pregunta.java:11:	CommentRequired: Field comments are required
+src/modelo/Pregunta.java:11:	CommentRequired: Field comments are required
+src/modelo/Pregunta.java:12:	CommentRequired: Field comments are required
+src/modelo/Pregunta.java:12:	CommentRequired: Field comments are required
+src/modelo/Pregunta.java:13:	CommentRequired: Field comments are required
+src/modelo/Pregunta.java:13:	CommentRequired: Field comments are required
+src/modelo/Pregunta.java:15:	CommentRequired: Public method and constructor comments are required
+src/modelo/Pregunta.java:15:	CommentRequired: Public method and constructor comments are required
+src/modelo/Pregunta.java:18:	StringInstantiation: Avoid instantiating String objects; this is usually unnecessary.
+src/modelo/Pregunta.java:18:	StringInstantiation: Avoid instantiating String objects; this is usually unnecessary.
+src/modelo/Pregunta.java:19:	StringInstantiation: Avoid instantiating String objects; this is usually unnecessary.
+src/modelo/Pregunta.java:19:	StringInstantiation: Avoid instantiating String objects; this is usually unnecessary.
+src/modelo/Pregunta.java:22:	LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+src/modelo/Pregunta.java:22:	LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+src/modelo/Pregunta.java:26:	LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+src/modelo/Pregunta.java:26:	LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+src/modelo/Pregunta.java:26:	MethodArgumentCouldBeFinal: Parameter 'listRespuestas' is not assigned and could be declared final
+src/modelo/Pregunta.java:26:	MethodArgumentCouldBeFinal: Parameter 'listRespuestas' is not assigned and could be declared final
+src/modelo/Pregunta.java:38:	MethodArgumentCouldBeFinal: Parameter 'nivel' is not assigned and could be declared final
+src/modelo/Pregunta.java:38:	MethodArgumentCouldBeFinal: Parameter 'nivel' is not assigned and could be declared final
+src/modelo/Pregunta.java:42:	MethodArgumentCouldBeFinal: Parameter 'pregunta' is not assigned and could be declared final
+src/modelo/Pregunta.java:42:	MethodArgumentCouldBeFinal: Parameter 'pregunta' is not assigned and could be declared final
+src/modelo/Pregunta.java:50:	MethodArgumentCouldBeFinal: Parameter 'codigo' is not assigned and could be declared final
+src/modelo/Pregunta.java:50:	MethodArgumentCouldBeFinal: Parameter 'codigo' is not assigned and could be declared final
+src/modelo/Respuesta.java:3:	CommentRequired: Class comments are required
+src/modelo/Respuesta.java:3:	CommentRequired: Class comments are required
+src/modelo/Respuesta.java:3:	DataClass: The class 'Respuesta' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=4, WMC=6)
+src/modelo/Respuesta.java:3:	DataClass: The class 'Respuesta' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=4, WMC=6)
+src/modelo/Respuesta.java:9:	AvoidFieldNameMatchingTypeName: It is somewhat confusing to have a field name matching the declaring class name
+src/modelo/Respuesta.java:9:	AvoidFieldNameMatchingTypeName: It is somewhat confusing to have a field name matching the declaring class name
+src/modelo/Respuesta.java:10:	CommentRequired: Field comments are required
+src/modelo/Respuesta.java:10:	CommentRequired: Field comments are required
+src/modelo/Respuesta.java:12:	CommentRequired: Public method and constructor comments are required
+src/modelo/Respuesta.java:12:	CommentRequired: Public method and constructor comments are required
+src/modelo/Respuesta.java:13:	StringInstantiation: Avoid instantiating String objects; this is usually unnecessary.
+src/modelo/Respuesta.java:13:	StringInstantiation: Avoid instantiating String objects; this is usually unnecessary.
+src/modelo/Respuesta.java:21:	MethodArgumentCouldBeFinal: Parameter 'respuesta' is not assigned and could be declared final
+src/modelo/Respuesta.java:21:	MethodArgumentCouldBeFinal: Parameter 'respuesta' is not assigned and could be declared final
+src/modelo/Respuesta.java:29:	MethodArgumentCouldBeFinal: Parameter 'band' is not assigned and could be declared final
+src/modelo/Respuesta.java:29:	MethodArgumentCouldBeFinal: Parameter 'band' is not assigned and could be declared final
+src/utilidades/ConexionBD.java:6:	ClassNamingConventions: The utility class name 'ConexionBD' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper|Constants)'
+src/utilidades/ConexionBD.java:6:	ClassNamingConventions: The utility class name 'ConexionBD' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper|Constants)'
+src/utilidades/ConexionBD.java:6:	CommentRequired: Class comments are required
+src/utilidades/ConexionBD.java:6:	CommentRequired: Class comments are required
+src/utilidades/ConexionBD.java:6:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/utilidades/ConexionBD.java:6:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/utilidades/ConexionBD.java:14:	LocalVariableCouldBeFinal: Local variable 'con' could be declared final
+src/utilidades/ConexionBD.java:14:	LocalVariableCouldBeFinal: Local variable 'con' could be declared final
+src/utilidades/ConexionBD.java:21:	CommentSize: Comment is too large: Line too long
+src/utilidades/ConexionBD.java:21:	CommentSize: Comment is too large: Line too long
+src/utilidades/ConexionBD.java:23:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/utilidades/ConexionBD.java:23:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/utilidades/ConexionBD.java:23:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'con'
+src/utilidades/ConexionBD.java:23:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'con'
+src/utilidades/ConexionBD.java:24:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/utilidades/ConexionBD.java:24:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/utilidades/ConexionBD.java:25:	SystemPrintln: System.out.println is used
+src/utilidades/ConexionBD.java:25:	SystemPrintln: System.out.println is used
+src/utilidades/ConexionBD.java:33:	MethodArgumentCouldBeFinal: Parameter 'con' is not assigned and could be declared final
+src/utilidades/ConexionBD.java:33:	MethodArgumentCouldBeFinal: Parameter 'con' is not assigned and could be declared final
+src/utilidades/ConexionBD.java:36:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/utilidades/ConexionBD.java:36:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/utilidades/ConexionBD.java:36:	EmptyCatchBlock: Avoid empty catch blocks
+src/utilidades/ConexionBD.java:36:	EmptyCatchBlock: Avoid empty catch blocks
+src/vista/Escritorio.java:4:	UnusedImports: Avoid unused imports such as 'java.awt.MenuBar'
+src/vista/Escritorio.java:4:	UnusedImports: Avoid unused imports such as 'java.awt.MenuBar'
+src/vista/Escritorio.java:25:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/vista/Escritorio.java:25:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/vista/Escritorio.java:32:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Escritorio.java:32:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Escritorio.java:32:	SingularField: Perhaps 'ingresarEmp' could be replaced by a local variable.
+src/vista/Escritorio.java:32:	SingularField: Perhaps 'ingresarEmp' could be replaced by a local variable.
+src/vista/Escritorio.java:33:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Escritorio.java:33:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Escritorio.java:33:	CommentRequired: Field comments are required
+src/vista/Escritorio.java:33:	CommentRequired: Field comments are required
+src/vista/Escritorio.java:33:	SingularField: Perhaps 'regJu' could be replaced by a local variable.
+src/vista/Escritorio.java:33:	SingularField: Perhaps 'regJu' could be replaced by a local variable.
+src/vista/Escritorio.java:34:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Escritorio.java:34:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Escritorio.java:34:	CommentRequired: Field comments are required
+src/vista/Escritorio.java:34:	CommentRequired: Field comments are required
+src/vista/Escritorio.java:34:	SingularField: Perhaps 'juego' could be replaced by a local variable.
+src/vista/Escritorio.java:34:	SingularField: Perhaps 'juego' could be replaced by a local variable.
+src/vista/Escritorio.java:35:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Escritorio.java:35:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Escritorio.java:35:	CommentRequired: Field comments are required
+src/vista/Escritorio.java:35:	CommentRequired: Field comments are required
+src/vista/Escritorio.java:35:	SingularField: Perhaps 'mnuSalir' could be replaced by a local variable.
+src/vista/Escritorio.java:35:	SingularField: Perhaps 'mnuSalir' could be replaced by a local variable.
+src/vista/Escritorio.java:37:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Escritorio.java:37:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Escritorio.java:37:	CommentRequired: Field comments are required
+src/vista/Escritorio.java:37:	CommentRequired: Field comments are required
+src/vista/Escritorio.java:37:	ImmutableField: Private field 'control' could be made final; it is only initialized in the declaration or constructor.
+src/vista/Escritorio.java:37:	ImmutableField: Private field 'control' could be made final; it is only initialized in the declaration or constructor.
+src/vista/Escritorio.java:37:	SingularField: Perhaps 'control' could be replaced by a local variable.
+src/vista/Escritorio.java:37:	SingularField: Perhaps 'control' could be replaced by a local variable.
+src/vista/Escritorio.java:37:	UnusedPrivateField: Avoid unused private fields such as 'control'.
+src/vista/Escritorio.java:37:	UnusedPrivateField: Avoid unused private fields such as 'control'.
+src/vista/Escritorio.java:38:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Escritorio.java:38:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Escritorio.java:38:	CommentRequired: Field comments are required
+src/vista/Escritorio.java:38:	CommentRequired: Field comments are required
+src/vista/Escritorio.java:38:	ImmutableField: Private field 'v' could be made final; it is only initialized in the declaration or constructor.
+src/vista/Escritorio.java:38:	ImmutableField: Private field 'v' could be made final; it is only initialized in the declaration or constructor.
+src/vista/Escritorio.java:38:	ShortVariable: Avoid variables with short names like v
+src/vista/Escritorio.java:38:	ShortVariable: Avoid variables with short names like v
+src/vista/Escritorio.java:39:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Escritorio.java:39:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Escritorio.java:39:	CommentRequired: Field comments are required
+src/vista/Escritorio.java:39:	CommentRequired: Field comments are required
+src/vista/Escritorio.java:39:	ImmutableField: Private field 'vIn' could be made final; it is only initialized in the declaration or constructor.
+src/vista/Escritorio.java:39:	ImmutableField: Private field 'vIn' could be made final; it is only initialized in the declaration or constructor.
+src/vista/Escritorio.java:41:	AvoidFieldNameMatchingTypeName: It is somewhat confusing to have a field name matching the declaring class name
+src/vista/Escritorio.java:41:	AvoidFieldNameMatchingTypeName: It is somewhat confusing to have a field name matching the declaring class name
+src/vista/Escritorio.java:41:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Escritorio.java:41:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Escritorio.java:41:	CommentRequired: Field comments are required
+src/vista/Escritorio.java:41:	CommentRequired: Field comments are required
+src/vista/Escritorio.java:43:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/vista/Escritorio.java:43:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/vista/Escritorio.java:43:	CommentRequired: Public method and constructor comments are required
+src/vista/Escritorio.java:43:	CommentRequired: Public method and constructor comments are required
+src/vista/Escritorio.java:43:	MethodArgumentCouldBeFinal: Parameter 'control' is not assigned and could be declared final
+src/vista/Escritorio.java:43:	MethodArgumentCouldBeFinal: Parameter 'control' is not assigned and could be declared final
+src/vista/Escritorio.java:46:	LocalVariableCouldBeFinal: Local variable 'p' could be declared final
+src/vista/Escritorio.java:46:	LocalVariableCouldBeFinal: Local variable 'p' could be declared final
+src/vista/Escritorio.java:46:	ShortVariable: Avoid variables with short names like p
+src/vista/Escritorio.java:46:	ShortVariable: Avoid variables with short names like p
+src/vista/Escritorio.java:54:	ForLoopCanBeForeach: This for loop can be replaced by a foreach loop
+src/vista/Escritorio.java:54:	ForLoopCanBeForeach: This for loop can be replaced by a foreach loop
+src/vista/Escritorio.java:56:	SystemPrintln: System.out.println is used
+src/vista/Escritorio.java:56:	SystemPrintln: System.out.println is used
+src/vista/Escritorio.java:64:	SystemPrintln: System.out.print is used
+src/vista/Escritorio.java:64:	SystemPrintln: System.out.print is used
+src/vista/Escritorio.java:65:	SystemPrintln: System.out.println is used
+src/vista/Escritorio.java:65:	SystemPrintln: System.out.println is used
+src/vista/Escritorio.java:69:	ConstructorCallsOverridableMethod: Overridable method 'init' called during object construction
+src/vista/Escritorio.java:69:	ConstructorCallsOverridableMethod: Overridable method 'init' called during object construction
+src/vista/Escritorio.java:72:	CommentRequired: Public method and constructor comments are required
+src/vista/Escritorio.java:72:	CommentRequired: Public method and constructor comments are required
+src/vista/Escritorio.java:80:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Escritorio.java:80:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Escritorio.java:85:	LocalVariableCouldBeFinal: Local variable 'barra' could be declared final
+src/vista/Escritorio.java:85:	LocalVariableCouldBeFinal: Local variable 'barra' could be declared final
+src/vista/Escritorio.java:124:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/vista/Escritorio.java:124:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/vista/Escritorio.java:124:	ShortVariable: Avoid variables with short names like e
+src/vista/Escritorio.java:124:	ShortVariable: Avoid variables with short names like e
+src/vista/Escritorio.java:127:	LocalVariableCouldBeFinal: Local variable 'comando' could be declared final
+src/vista/Escritorio.java:127:	LocalVariableCouldBeFinal: Local variable 'comando' could be declared final
+src/vista/Escritorio.java:128:	SystemPrintln: System.out.println is used
+src/vista/Escritorio.java:128:	SystemPrintln: System.out.println is used
+src/vista/Escritorio.java:165:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/vista/Escritorio.java:165:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/vista/Escritorio.java:166:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/vista/Escritorio.java:166:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/vista/Escritorio.java:186:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/vista/Escritorio.java:186:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/vista/Escritorio.java:187:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/vista/Escritorio.java:187:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/vista/Escritorio.java:192:	CommentRequired: Public method and constructor comments are required
+src/vista/Escritorio.java:192:	CommentRequired: Public method and constructor comments are required
+src/vista/Escritorio.java:193:	DoNotCallSystemExit: System.exit() should not be used in J2EE/JEE apps
+src/vista/Escritorio.java:193:	DoNotCallSystemExit: System.exit() should not be used in J2EE/JEE apps
+src/vista/Jpanel.java:9:	CommentRequired: Class comments are required
+src/vista/Jpanel.java:9:	CommentRequired: Class comments are required
+src/vista/Jpanel.java:9:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/vista/Jpanel.java:9:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/vista/Jpanel.java:17:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Jpanel.java:17:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Jpanel.java:17:	ImmutableField: Private field 'val' could be made final; it is only initialized in the declaration or constructor.
+src/vista/Jpanel.java:17:	ImmutableField: Private field 'val' could be made final; it is only initialized in the declaration or constructor.
+src/vista/Jpanel.java:34:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Jpanel.java:34:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Jpanel.java:34:	CommentRequired: Field comments are required
+src/vista/Jpanel.java:34:	CommentRequired: Field comments are required
+src/vista/Jpanel.java:34:	ShortVariable: Avoid variables with short names like c
+src/vista/Jpanel.java:34:	ShortVariable: Avoid variables with short names like c
+src/vista/Jpanel.java:35:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Jpanel.java:35:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Jpanel.java:35:	CommentRequired: Field comments are required
+src/vista/Jpanel.java:35:	CommentRequired: Field comments are required
+src/vista/Jpanel.java:36:	CommentRequired: Public method and constructor comments are required
+src/vista/Jpanel.java:36:	CommentRequired: Public method and constructor comments are required
+src/vista/Jpanel.java:45:	MethodArgumentCouldBeFinal: Parameter 'c' is not assigned and could be declared final
+src/vista/Jpanel.java:45:	MethodArgumentCouldBeFinal: Parameter 'c' is not assigned and could be declared final
+src/vista/Jpanel.java:45:	ShortVariable: Avoid variables with short names like c
+src/vista/Jpanel.java:45:	ShortVariable: Avoid variables with short names like c
+src/vista/Jpanel.java:59:	CommentRequired: Public method and constructor comments are required
+src/vista/Jpanel.java:59:	CommentRequired: Public method and constructor comments are required
+src/vista/Jpanel.java:59:	MethodArgumentCouldBeFinal: Parameter 'g' is not assigned and could be declared final
+src/vista/Jpanel.java:59:	MethodArgumentCouldBeFinal: Parameter 'g' is not assigned and could be declared final
+src/vista/Jpanel.java:59:	MissingOverride: The method 'paint(Graphics)' is missing an @Override annotation.
+src/vista/Jpanel.java:59:	MissingOverride: The method 'paint(Graphics)' is missing an @Override annotation.
+src/vista/Jpanel.java:59:	ShortVariable: Avoid variables with short names like g
+src/vista/Jpanel.java:59:	ShortVariable: Avoid variables with short names like g
+src/vista/Jpanel.java:61:	LocalVariableCouldBeFinal: Local variable 'azul' could be declared final
+src/vista/Jpanel.java:61:	LocalVariableCouldBeFinal: Local variable 'azul' could be declared final
+src/vista/Jpanel.java:64:	LocalVariableCouldBeFinal: Local variable 'fon' could be declared final
+src/vista/Jpanel.java:64:	LocalVariableCouldBeFinal: Local variable 'fon' could be declared final
+src/vista/Jpanel.java:70:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:70:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:72:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:72:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:73:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:73:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:74:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:74:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:75:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:75:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:76:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:76:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:77:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:77:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:78:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:78:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:79:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:79:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:80:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:80:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:81:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:81:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:82:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:82:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:83:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:83:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:84:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:84:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Jpanel.java:92:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/vista/Jpanel.java:92:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/vista/Jpanel.java:92:	EmptyCatchBlock: Avoid empty catch blocks
+src/vista/Jpanel.java:92:	EmptyCatchBlock: Avoid empty catch blocks
+src/vista/MainClass.java:6:	UnusedImports: Avoid unused imports such as 'java.nio.Buffer'
+src/vista/MainClass.java:6:	UnusedImports: Avoid unused imports such as 'java.nio.Buffer'
+src/vista/MainClass.java:7:	UnusedImports: Avoid unused imports such as 'java.util.ArrayList'
+src/vista/MainClass.java:7:	UnusedImports: Avoid unused imports such as 'java.util.ArrayList'
+src/vista/MainClass.java:10:	UnusedImports: Avoid unused imports such as 'com.panamahitek.ArduinoException'
+src/vista/MainClass.java:10:	UnusedImports: Avoid unused imports such as 'com.panamahitek.ArduinoException'
+src/vista/MainClass.java:11:	UnusedImports: Avoid unused imports such as 'com.panamahitek.PanamaHitek_Arduino'
+src/vista/MainClass.java:11:	UnusedImports: Avoid unused imports such as 'com.panamahitek.PanamaHitek_Arduino'
+src/vista/MainClass.java:16:	UnusedImports: Avoid unused imports such as 'jssc.SerialPortEvent'
+src/vista/MainClass.java:16:	UnusedImports: Avoid unused imports such as 'jssc.SerialPortEvent'
+src/vista/MainClass.java:17:	UnusedImports: Avoid unused imports such as 'jssc.SerialPortEventListener'
+src/vista/MainClass.java:17:	UnusedImports: Avoid unused imports such as 'jssc.SerialPortEventListener'
+src/vista/MainClass.java:18:	UnusedImports: Avoid unused imports such as 'jssc.SerialPortException'
+src/vista/MainClass.java:18:	UnusedImports: Avoid unused imports such as 'jssc.SerialPortException'
+src/vista/MainClass.java:19:	UnusedImports: Avoid unused imports such as 'modelo.Pregunta'
+src/vista/MainClass.java:19:	UnusedImports: Avoid unused imports such as 'modelo.Pregunta'
+src/vista/MainClass.java:21:	CommentRequired: Class comments are required
+src/vista/MainClass.java:21:	CommentRequired: Class comments are required
+src/vista/MainClass.java:21:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/vista/MainClass.java:21:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/vista/MainClass.java:23:	CommentRequired: Public method and constructor comments are required
+src/vista/MainClass.java:23:	CommentRequired: Public method and constructor comments are required
+src/vista/MainClass.java:23:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/vista/MainClass.java:23:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/vista/MainClass.java:25:	LocalVariableCouldBeFinal: Local variable 'c' could be declared final
+src/vista/MainClass.java:25:	LocalVariableCouldBeFinal: Local variable 'c' could be declared final
+src/vista/MainClass.java:25:	ShortVariable: Avoid variables with short names like c
+src/vista/MainClass.java:25:	ShortVariable: Avoid variables with short names like c
+src/vista/MainClass.java:26:	LocalVariableCouldBeFinal: Local variable 'es' could be declared final
+src/vista/MainClass.java:26:	LocalVariableCouldBeFinal: Local variable 'es' could be declared final
+src/vista/MainClass.java:26:	ShortVariable: Avoid variables with short names like es
+src/vista/MainClass.java:26:	ShortVariable: Avoid variables with short names like es
+src/vista/MainClass.java:29:	CommentSize: Comment is too large: Too many lines
+src/vista/MainClass.java:29:	CommentSize: Comment is too large: Too many lines
+src/vista/MainClass.java:42:	CommentSize: Comment is too large: Too many lines
+src/vista/MainClass.java:42:	CommentSize: Comment is too large: Too many lines
+src/vista/MainClass.java:59:	CloseResource: Ensure that resources like this FileInputStream object are closed after use
+src/vista/MainClass.java:59:	CloseResource: Ensure that resources like this FileInputStream object are closed after use
+src/vista/MainClass.java:62:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/vista/MainClass.java:62:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/vista/MainClass.java:63:	CloseResource: Ensure that resources like this FileInputStream object are closed after use
+src/vista/MainClass.java:63:	CloseResource: Ensure that resources like this FileInputStream object are closed after use
+src/vista/MainClass.java:63:	LocalVariableCouldBeFinal: Local variable 'sonido' could be declared final
+src/vista/MainClass.java:63:	LocalVariableCouldBeFinal: Local variable 'sonido' could be declared final
+src/vista/MainClass.java:69:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/vista/MainClass.java:69:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/vista/MainClass.java:70:	IdenticalCatchBranches: 'catch' branch identical to 'JavaLayerException' branch
+src/vista/MainClass.java:70:	IdenticalCatchBranches: 'catch' branch identical to 'JavaLayerException' branch
+src/vista/MainClass.java:72:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/vista/MainClass.java:72:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/vista/VentInicial.java:4:	UnusedImports: Avoid unused imports such as 'java.awt.Color'
+src/vista/VentInicial.java:4:	UnusedImports: Avoid unused imports such as 'java.awt.Color'
+src/vista/VentInicial.java:7:	UnusedImports: Avoid unused imports such as 'java.awt.GridLayout'
+src/vista/VentInicial.java:7:	UnusedImports: Avoid unused imports such as 'java.awt.GridLayout'
+src/vista/VentInicial.java:21:	CommentRequired: Class comments are required
+src/vista/VentInicial.java:21:	CommentRequired: Class comments are required
+src/vista/VentInicial.java:21:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/vista/VentInicial.java:21:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/vista/VentInicial.java:22:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/VentInicial.java:22:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/VentInicial.java:22:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/VentInicial.java:22:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/VentInicial.java:22:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/VentInicial.java:22:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/VentInicial.java:22:	CommentRequired: Field comments are required
+src/vista/VentInicial.java:22:	CommentRequired: Field comments are required
+src/vista/VentInicial.java:22:	ImmutableField: Private field 'codigo' could be made final; it is only initialized in the declaration or constructor.
+src/vista/VentInicial.java:22:	ImmutableField: Private field 'codigo' could be made final; it is only initialized in the declaration or constructor.
+src/vista/VentInicial.java:22:	ImmutableField: Private field 'direccion' could be made final; it is only initialized in the declaration or constructor.
+src/vista/VentInicial.java:22:	ImmutableField: Private field 'direccion' could be made final; it is only initialized in the declaration or constructor.
+src/vista/VentInicial.java:22:	ImmutableField: Private field 'nombre' could be made final; it is only initialized in the declaration or constructor.
+src/vista/VentInicial.java:22:	ImmutableField: Private field 'nombre' could be made final; it is only initialized in the declaration or constructor.
+src/vista/VentInicial.java:22:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/vista/VentInicial.java:22:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/vista/VentInicial.java:23:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/VentInicial.java:23:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/VentInicial.java:23:	CommentRequired: Field comments are required
+src/vista/VentInicial.java:23:	CommentRequired: Field comments are required
+src/vista/VentInicial.java:23:	ImmutableField: Private field 'registro' could be made final; it is only initialized in the declaration or constructor.
+src/vista/VentInicial.java:23:	ImmutableField: Private field 'registro' could be made final; it is only initialized in the declaration or constructor.
+src/vista/VentInicial.java:24:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/VentInicial.java:24:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/VentInicial.java:24:	CommentRequired: Field comments are required
+src/vista/VentInicial.java:24:	CommentRequired: Field comments are required
+src/vista/VentInicial.java:24:	ImmutableField: Private field 'control' could be made final; it is only initialized in the declaration or constructor.
+src/vista/VentInicial.java:24:	ImmutableField: Private field 'control' could be made final; it is only initialized in the declaration or constructor.
+src/vista/VentInicial.java:26:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/VentInicial.java:26:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/VentInicial.java:26:	CommentRequired: Field comments are required
+src/vista/VentInicial.java:26:	CommentRequired: Field comments are required
+src/vista/VentInicial.java:26:	ImmutableField: Private field 'pregunta' could be made final; it is only initialized in the declaration or constructor.
+src/vista/VentInicial.java:26:	ImmutableField: Private field 'pregunta' could be made final; it is only initialized in the declaration or constructor.
+src/vista/VentInicial.java:27:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/VentInicial.java:27:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/VentInicial.java:27:	CommentRequired: Field comments are required
+src/vista/VentInicial.java:27:	CommentRequired: Field comments are required
+src/vista/VentInicial.java:27:	ImmutableField: Private field 'opcion2' could be made final; it is only initialized in the declaration or constructor.
+src/vista/VentInicial.java:27:	ImmutableField: Private field 'opcion2' could be made final; it is only initialized in the declaration or constructor.
+src/vista/VentInicial.java:28:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/VentInicial.java:28:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/VentInicial.java:28:	CommentRequired: Field comments are required
+src/vista/VentInicial.java:28:	CommentRequired: Field comments are required
+src/vista/VentInicial.java:28:	ImmutableField: Private field 'opcion1' could be made final; it is only initialized in the declaration or constructor.
+src/vista/VentInicial.java:28:	ImmutableField: Private field 'opcion1' could be made final; it is only initialized in the declaration or constructor.
+src/vista/VentInicial.java:29:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/VentInicial.java:29:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/VentInicial.java:29:	CommentRequired: Field comments are required
+src/vista/VentInicial.java:29:	CommentRequired: Field comments are required
+src/vista/VentInicial.java:29:	ImmutableField: Private field 'opcion3' could be made final; it is only initialized in the declaration or constructor.
+src/vista/VentInicial.java:29:	ImmutableField: Private field 'opcion3' could be made final; it is only initialized in the declaration or constructor.
+src/vista/VentInicial.java:30:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/VentInicial.java:30:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/VentInicial.java:30:	CommentRequired: Field comments are required
+src/vista/VentInicial.java:30:	CommentRequired: Field comments are required
+src/vista/VentInicial.java:30:	ImmutableField: Private field 'opcion4' could be made final; it is only initialized in the declaration or constructor.
+src/vista/VentInicial.java:30:	ImmutableField: Private field 'opcion4' could be made final; it is only initialized in the declaration or constructor.
+src/vista/VentInicial.java:31:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/VentInicial.java:31:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/VentInicial.java:31:	CommentRequired: Field comments are required
+src/vista/VentInicial.java:31:	CommentRequired: Field comments are required
+src/vista/VentInicial.java:31:	ImmutableField: Private field 'savePRe' could be made final; it is only initialized in the declaration or constructor.
+src/vista/VentInicial.java:31:	ImmutableField: Private field 'savePRe' could be made final; it is only initialized in the declaration or constructor.
+src/vista/VentInicial.java:32:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/VentInicial.java:32:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/VentInicial.java:32:	CommentRequired: Field comments are required
+src/vista/VentInicial.java:32:	CommentRequired: Field comments are required
+src/vista/VentInicial.java:32:	ImmutableField: Private field 'combo' could be made final; it is only initialized in the declaration or constructor.
+src/vista/VentInicial.java:32:	ImmutableField: Private field 'combo' could be made final; it is only initialized in the declaration or constructor.
+src/vista/VentInicial.java:33:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/VentInicial.java:33:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/VentInicial.java:33:	CommentRequired: Field comments are required
+src/vista/VentInicial.java:33:	CommentRequired: Field comments are required
+src/vista/VentInicial.java:33:	ImmutableField: Private field 'v' could be made final; it is only initialized in the declaration or constructor.
+src/vista/VentInicial.java:33:	ImmutableField: Private field 'v' could be made final; it is only initialized in the declaration or constructor.
+src/vista/VentInicial.java:33:	ShortVariable: Avoid variables with short names like v
+src/vista/VentInicial.java:33:	ShortVariable: Avoid variables with short names like v
+src/vista/VentInicial.java:35:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/vista/VentInicial.java:35:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/vista/VentInicial.java:35:	CommentRequired: Public method and constructor comments are required
+src/vista/VentInicial.java:35:	CommentRequired: Public method and constructor comments are required
+src/vista/VentInicial.java:35:	MethodArgumentCouldBeFinal: Parameter 'control' is not assigned and could be declared final
+src/vista/VentInicial.java:35:	MethodArgumentCouldBeFinal: Parameter 'control' is not assigned and could be declared final
+src/vista/VentInicial.java:35:	MethodArgumentCouldBeFinal: Parameter 'v' is not assigned and could be declared final
+src/vista/VentInicial.java:35:	MethodArgumentCouldBeFinal: Parameter 'v' is not assigned and could be declared final
+src/vista/VentInicial.java:35:	ShortVariable: Avoid variables with short names like v
+src/vista/VentInicial.java:35:	ShortVariable: Avoid variables with short names like v
+src/vista/VentInicial.java:50:	ConstructorCallsOverridableMethod: Overridable method 'actualizarCombo' called during object construction
+src/vista/VentInicial.java:50:	ConstructorCallsOverridableMethod: Overridable method 'actualizarCombo' called during object construction
+src/vista/VentInicial.java:61:	LocalVariableCouldBeFinal: Local variable 'c' could be declared final
+src/vista/VentInicial.java:61:	LocalVariableCouldBeFinal: Local variable 'c' could be declared final
+src/vista/VentInicial.java:61:	ShortVariable: Avoid variables with short names like c
+src/vista/VentInicial.java:61:	ShortVariable: Avoid variables with short names like c
+src/vista/VentInicial.java:64:	LocalVariableCouldBeFinal: Local variable 'norte' could be declared final
+src/vista/VentInicial.java:64:	LocalVariableCouldBeFinal: Local variable 'norte' could be declared final
+src/vista/VentInicial.java:94:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/vista/VentInicial.java:94:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/vista/VentInicial.java:98:	CommentRequired: Public method and constructor comments are required
+src/vista/VentInicial.java:98:	CommentRequired: Public method and constructor comments are required
+src/vista/VentInicial.java:99:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'data' (lines '99'-'100').
+src/vista/VentInicial.java:99:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'data' (lines '99'-'100').
+src/vista/VentInicial.java:99:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'data' (lines '99'-'100').
+src/vista/VentInicial.java:99:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'data' (lines '99'-'100').
+src/vista/VentInicial.java:104:	ForLoopCanBeForeach: This for loop can be replaced by a foreach loop
+src/vista/VentInicial.java:104:	ForLoopCanBeForeach: This for loop can be replaced by a foreach loop
+src/vista/VentInicial.java:113:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/vista/VentInicial.java:113:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/vista/VentInicial.java:113:	ShortVariable: Avoid variables with short names like e
+src/vista/VentInicial.java:113:	ShortVariable: Avoid variables with short names like e
+src/vista/VentInicial.java:114:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/vista/VentInicial.java:114:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/vista/VentInicial.java:114:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/vista/VentInicial.java:114:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/vista/VentInicial.java:122:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/vista/VentInicial.java:122:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/vista/VentInicial.java:122:	ShortVariable: Avoid variables with short names like e
+src/vista/VentInicial.java:122:	ShortVariable: Avoid variables with short names like e
+src/vista/VentInicial.java:124:	SystemPrintln: System.out.println is used
+src/vista/VentInicial.java:124:	SystemPrintln: System.out.println is used
+src/vista/VentInicial.java:125:	LocalVariableCouldBeFinal: Local variable 'op' could be declared final
+src/vista/VentInicial.java:125:	LocalVariableCouldBeFinal: Local variable 'op' could be declared final
+src/vista/VentInicial.java:125:	ShortVariable: Avoid variables with short names like op
+src/vista/VentInicial.java:125:	ShortVariable: Avoid variables with short names like op
+src/vista/Ventana.java:14:	UnusedImports: Avoid unused imports such as 'javax.swing.JFrame'
+src/vista/Ventana.java:14:	UnusedImports: Avoid unused imports such as 'javax.swing.JFrame'
+src/vista/Ventana.java:27:	CommentRequired: Class comments are required
+src/vista/Ventana.java:27:	CommentRequired: Class comments are required
+src/vista/Ventana.java:27:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/vista/Ventana.java:27:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/vista/Ventana.java:27:	StdCyclomaticComplexity: The class 'Ventana' has a Standard Cyclomatic Complexity of 4 (Highest = 10).
+src/vista/Ventana.java:27:	StdCyclomaticComplexity: The class 'Ventana' has a Standard Cyclomatic Complexity of 4 (Highest = 10).
+src/vista/Ventana.java:27:	TooManyFields: Too many fields
+src/vista/Ventana.java:27:	TooManyFields: Too many fields
+src/vista/Ventana.java:31:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:31:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:31:	ImmutableField: Private field 'p' could be made final; it is only initialized in the declaration or constructor.
+src/vista/Ventana.java:31:	ImmutableField: Private field 'p' could be made final; it is only initialized in the declaration or constructor.
+src/vista/Ventana.java:31:	LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+src/vista/Ventana.java:31:	LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+src/vista/Ventana.java:31:	ShortVariable: Avoid variables with short names like p
+src/vista/Ventana.java:31:	ShortVariable: Avoid variables with short names like p
+src/vista/Ventana.java:32:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:32:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:32:	CommentRequired: Field comments are required
+src/vista/Ventana.java:32:	CommentRequired: Field comments are required
+src/vista/Ventana.java:32:	LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+src/vista/Ventana.java:32:	LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+src/vista/Ventana.java:32:	ShortVariable: Avoid variables with short names like r
+src/vista/Ventana.java:32:	ShortVariable: Avoid variables with short names like r
+src/vista/Ventana.java:33:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:33:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:33:	CommentRequired: Field comments are required
+src/vista/Ventana.java:33:	CommentRequired: Field comments are required
+src/vista/Ventana.java:34:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:34:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:34:	CommentRequired: Field comments are required
+src/vista/Ventana.java:34:	CommentRequired: Field comments are required
+src/vista/Ventana.java:35:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:35:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:35:	CommentRequired: Field comments are required
+src/vista/Ventana.java:35:	CommentRequired: Field comments are required
+src/vista/Ventana.java:35:	RedundantFieldInitializer: Avoid using redundant field initializer for 'c'
+src/vista/Ventana.java:35:	RedundantFieldInitializer: Avoid using redundant field initializer for 'c'
+src/vista/Ventana.java:35:	ShortVariable: Avoid variables with short names like c
+src/vista/Ventana.java:35:	ShortVariable: Avoid variables with short names like c
+src/vista/Ventana.java:40:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:40:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:41:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:41:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:41:	CommentRequired: Field comments are required
+src/vista/Ventana.java:41:	CommentRequired: Field comments are required
+src/vista/Ventana.java:42:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:42:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:42:	CommentRequired: Field comments are required
+src/vista/Ventana.java:42:	CommentRequired: Field comments are required
+src/vista/Ventana.java:43:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:43:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:43:	CommentRequired: Field comments are required
+src/vista/Ventana.java:43:	CommentRequired: Field comments are required
+src/vista/Ventana.java:44:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:44:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:44:	CommentRequired: Field comments are required
+src/vista/Ventana.java:44:	CommentRequired: Field comments are required
+src/vista/Ventana.java:45:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:45:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:45:	CommentRequired: Field comments are required
+src/vista/Ventana.java:45:	CommentRequired: Field comments are required
+src/vista/Ventana.java:47:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:47:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:47:	CommentRequired: Field comments are required
+src/vista/Ventana.java:47:	CommentRequired: Field comments are required
+src/vista/Ventana.java:47:	ImmutableField: Private field 'panel' could be made final; it is only initialized in the declaration or constructor.
+src/vista/Ventana.java:47:	ImmutableField: Private field 'panel' could be made final; it is only initialized in the declaration or constructor.
+src/vista/Ventana.java:48:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:48:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:48:	CommentRequired: Field comments are required
+src/vista/Ventana.java:48:	CommentRequired: Field comments are required
+src/vista/Ventana.java:48:	ImmutableField: Private field 'comodin' could be made final; it is only initialized in the declaration or constructor.
+src/vista/Ventana.java:48:	ImmutableField: Private field 'comodin' could be made final; it is only initialized in the declaration or constructor.
+src/vista/Ventana.java:49:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:49:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:49:	CommentRequired: Field comments are required
+src/vista/Ventana.java:49:	CommentRequired: Field comments are required
+src/vista/Ventana.java:49:	ShortVariable: Avoid variables with short names like pp
+src/vista/Ventana.java:49:	ShortVariable: Avoid variables with short names like pp
+src/vista/Ventana.java:50:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:50:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:50:	CommentRequired: Field comments are required
+src/vista/Ventana.java:50:	CommentRequired: Field comments are required
+src/vista/Ventana.java:55:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/vista/Ventana.java:55:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/vista/Ventana.java:55:	LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+src/vista/Ventana.java:55:	LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+src/vista/Ventana.java:55:	MethodArgumentCouldBeFinal: Parameter 'p' is not assigned and could be declared final
+src/vista/Ventana.java:55:	MethodArgumentCouldBeFinal: Parameter 'p' is not assigned and could be declared final
+src/vista/Ventana.java:55:	ShortVariable: Avoid variables with short names like p
+src/vista/Ventana.java:55:	ShortVariable: Avoid variables with short names like p
+src/vista/Ventana.java:56:	StringInstantiation: Avoid instantiating String objects; this is usually unnecessary.
+src/vista/Ventana.java:56:	StringInstantiation: Avoid instantiating String objects; this is usually unnecessary.
+src/vista/Ventana.java:57:	StringInstantiation: Avoid instantiating String objects; this is usually unnecessary.
+src/vista/Ventana.java:57:	StringInstantiation: Avoid instantiating String objects; this is usually unnecessary.
+src/vista/Ventana.java:61:	StringInstantiation: Avoid instantiating String objects; this is usually unnecessary.
+src/vista/Ventana.java:61:	StringInstantiation: Avoid instantiating String objects; this is usually unnecessary.
+src/vista/Ventana.java:78:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/vista/Ventana.java:78:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/vista/Ventana.java:85:	LocalVariableCouldBeFinal: Local variable 'azul' could be declared final
+src/vista/Ventana.java:85:	LocalVariableCouldBeFinal: Local variable 'azul' could be declared final
+src/vista/Ventana.java:114:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Ventana.java:114:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Ventana.java:115:	AddEmptyString: Do not add empty strings
+src/vista/Ventana.java:115:	AddEmptyString: Do not add empty strings
+src/vista/Ventana.java:115:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Ventana.java:115:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Ventana.java:116:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Ventana.java:116:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Ventana.java:127:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/vista/Ventana.java:127:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/vista/Ventana.java:131:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:131:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/vista/Ventana.java:131:	FieldNamingConventions: The field name 'Listener' doesn't match '[a-z][a-zA-Z0-9]*'
+src/vista/Ventana.java:131:	FieldNamingConventions: The field name 'Listener' doesn't match '[a-z][a-zA-Z0-9]*'
+src/vista/Ventana.java:131:	ImmutableField: Private field 'Listener' could be made final; it is only initialized in the declaration or constructor.
+src/vista/Ventana.java:131:	ImmutableField: Private field 'Listener' could be made final; it is only initialized in the declaration or constructor.
+src/vista/Ventana.java:131:	VariableNamingConventions: Variables should start with a lowercase character, 'Listener' starts with uppercase character.
+src/vista/Ventana.java:131:	VariableNamingConventions: Variables should start with a lowercase character, 'Listener' starts with uppercase character.
+src/vista/Ventana.java:134:	MethodArgumentCouldBeFinal: Parameter 'serialPortEvent' is not assigned and could be declared final
+src/vista/Ventana.java:134:	MethodArgumentCouldBeFinal: Parameter 'serialPortEvent' is not assigned and could be declared final
+src/vista/Ventana.java:136:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/vista/Ventana.java:136:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/vista/Ventana.java:137:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/vista/Ventana.java:137:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/vista/Ventana.java:137:	LocalVariableCouldBeFinal: Local variable 'op' could be declared final
+src/vista/Ventana.java:137:	LocalVariableCouldBeFinal: Local variable 'op' could be declared final
+src/vista/Ventana.java:137:	ShortVariable: Avoid variables with short names like op
+src/vista/Ventana.java:137:	ShortVariable: Avoid variables with short names like op
+src/vista/Ventana.java:138:	SystemPrintln: System.out.println is used
+src/vista/Ventana.java:138:	SystemPrintln: System.out.println is used
+src/vista/Ventana.java:142:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/vista/Ventana.java:142:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/vista/Ventana.java:142:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/vista/Ventana.java:142:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/vista/Ventana.java:142:	SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+src/vista/Ventana.java:142:	SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+src/vista/Ventana.java:143:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/vista/Ventana.java:143:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/vista/Ventana.java:143:	ControlStatementBraces: This statement should have braces
+src/vista/Ventana.java:143:	ControlStatementBraces: This statement should have braces
+src/vista/Ventana.java:148:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/vista/Ventana.java:148:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/vista/Ventana.java:154:	CommentSize: Comment is too large: Line too long
+src/vista/Ventana.java:154:	CommentSize: Comment is too large: Line too long
+src/vista/Ventana.java:158:	CyclomaticComplexity: The method 'comparacion(String)' has a cyclomatic complexity of 10.
+src/vista/Ventana.java:158:	CyclomaticComplexity: The method 'comparacion(String)' has a cyclomatic complexity of 10.
+src/vista/Ventana.java:158:	MethodArgumentCouldBeFinal: Parameter 'clave' is not assigned and could be declared final
+src/vista/Ventana.java:158:	MethodArgumentCouldBeFinal: Parameter 'clave' is not assigned and could be declared final
+src/vista/Ventana.java:158:	StdCyclomaticComplexity: The method 'comparacion' has a Standard Cyclomatic Complexity of 10.
+src/vista/Ventana.java:158:	StdCyclomaticComplexity: The method 'comparacion' has a Standard Cyclomatic Complexity of 10.
+src/vista/Ventana.java:162:	AvoidDuplicateLiterals: The String literal "respu " appears 4 times in this file; the first occurrence is on line 162
+src/vista/Ventana.java:162:	AvoidDuplicateLiterals: The String literal "respu " appears 4 times in this file; the first occurrence is on line 162
+src/vista/Ventana.java:162:	SystemPrintln: System.out.println is used
+src/vista/Ventana.java:162:	SystemPrintln: System.out.println is used
+src/vista/Ventana.java:167:	SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+src/vista/Ventana.java:167:	SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+src/vista/Ventana.java:173:	AvoidDuplicateLiterals: The String literal "perdio" appears 4 times in this file; the first occurrence is on line 173
+src/vista/Ventana.java:173:	AvoidDuplicateLiterals: The String literal "perdio" appears 4 times in this file; the first occurrence is on line 173
+src/vista/Ventana.java:173:	SystemPrintln: System.out.println is used
+src/vista/Ventana.java:173:	SystemPrintln: System.out.println is used
+src/vista/Ventana.java:182:	SystemPrintln: System.out.println is used
+src/vista/Ventana.java:182:	SystemPrintln: System.out.println is used
+src/vista/Ventana.java:184:	SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+src/vista/Ventana.java:184:	SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+src/vista/Ventana.java:191:	SystemPrintln: System.out.println is used
+src/vista/Ventana.java:191:	SystemPrintln: System.out.println is used
+src/vista/Ventana.java:199:	SystemPrintln: System.out.println is used
+src/vista/Ventana.java:199:	SystemPrintln: System.out.println is used
+src/vista/Ventana.java:201:	SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+src/vista/Ventana.java:201:	SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+src/vista/Ventana.java:208:	SystemPrintln: System.out.println is used
+src/vista/Ventana.java:208:	SystemPrintln: System.out.println is used
+src/vista/Ventana.java:215:	SystemPrintln: System.out.println is used
+src/vista/Ventana.java:215:	SystemPrintln: System.out.println is used
+src/vista/Ventana.java:217:	SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+src/vista/Ventana.java:217:	SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+src/vista/Ventana.java:223:	SystemPrintln: System.out.println is used
+src/vista/Ventana.java:223:	SystemPrintln: System.out.println is used
+src/vista/Ventana.java:238:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Ventana.java:238:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Ventana.java:239:	AddEmptyString: Do not add empty strings
+src/vista/Ventana.java:239:	AddEmptyString: Do not add empty strings
+src/vista/Ventana.java:239:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Ventana.java:239:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Ventana.java:240:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Ventana.java:240:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Ventana.java:245:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/vista/Ventana.java:245:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/vista/Ventana.java:245:	EmptyCatchBlock: Avoid empty catch blocks
+src/vista/Ventana.java:245:	EmptyCatchBlock: Avoid empty catch blocks
+src/vista/Ventana.java:260:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ress' (lines '260'-'263').
+src/vista/Ventana.java:260:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ress' (lines '260'-'263').
+src/vista/Ventana.java:265:	SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+src/vista/Ventana.java:265:	SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+src/vista/Ventana.java:271:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Ventana.java:271:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Ventana.java:272:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/vista/Ventana.java:272:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/vista/Ventana.java:275:	SystemPrintln: System.out.println is used
+src/vista/Ventana.java:275:	SystemPrintln: System.out.println is used
+src/vista/Ventana.java:276:	LocalVariableCouldBeFinal: Local variable 'resultado' could be declared final
+src/vista/Ventana.java:276:	LocalVariableCouldBeFinal: Local variable 'resultado' could be declared final
+src/vista/Ventana.java:276:	UselessParentheses: Useless parentheses.
+src/vista/Ventana.java:276:	UselessParentheses: Useless parentheses.
+src/vista/Ventana.java:277:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'premio' (lines '277'-'282').
+src/vista/Ventana.java:277:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'premio' (lines '277'-'282').
+src/vista/Ventana.java:278:	SystemPrintln: System.out.println is used
+src/vista/Ventana.java:278:	SystemPrintln: System.out.println is used
+src/vista/Ventana.java:281:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/vista/Ventana.java:281:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/vista/Ventana.java:282:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'premio' (lines '282'-'284').
+src/vista/Ventana.java:282:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'premio' (lines '282'-'284').
+src/vista/Ventana.java:283:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/vista/Ventana.java:283:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/vista/Ventana.java:284:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'premio' (lines '284'-'286').
+src/vista/Ventana.java:284:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'premio' (lines '284'-'286').
+src/vista/Ventana.java:285:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/vista/Ventana.java:285:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/vista/Ventana.java:292:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/vista/Ventana.java:292:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/vista/Ventana.java:297:	CommentRequired: Public method and constructor comments are required
+src/vista/Ventana.java:297:	CommentRequired: Public method and constructor comments are required
+src/vista/Ventana.java:297:	MethodArgumentCouldBeFinal: Parameter 'g' is not assigned and could be declared final
+src/vista/Ventana.java:297:	MethodArgumentCouldBeFinal: Parameter 'g' is not assigned and could be declared final
+src/vista/Ventana.java:297:	ShortVariable: Avoid variables with short names like g
+src/vista/Ventana.java:297:	ShortVariable: Avoid variables with short names like g
+src/vista/Ventana.java:303:	LocalVariableCouldBeFinal: Local variable 'azul' could be declared final
+src/vista/Ventana.java:303:	LocalVariableCouldBeFinal: Local variable 'azul' could be declared final
+src/vista/Ventana.java:307:	LocalVariableCouldBeFinal: Local variable 'azulp' could be declared final
+src/vista/Ventana.java:307:	LocalVariableCouldBeFinal: Local variable 'azulp' could be declared final
+src/vista/Ventana.java:309:	LocalVariableCouldBeFinal: Local variable 'Ex' could be declared final
+src/vista/Ventana.java:309:	LocalVariableCouldBeFinal: Local variable 'Ex' could be declared final
+src/vista/Ventana.java:309:	LocalVariableNamingConventions: The local variable name 'Ex' doesn't match '[a-z][a-zA-Z0-9]*'
+src/vista/Ventana.java:309:	LocalVariableNamingConventions: The local variable name 'Ex' doesn't match '[a-z][a-zA-Z0-9]*'
+src/vista/Ventana.java:309:	ShortVariable: Avoid variables with short names like Ex
+src/vista/Ventana.java:309:	ShortVariable: Avoid variables with short names like Ex
+src/vista/Ventana.java:309:	VariableNamingConventions: Variables should start with a lowercase character, 'Ex' starts with uppercase character.
+src/vista/Ventana.java:309:	VariableNamingConventions: Variables should start with a lowercase character, 'Ex' starts with uppercase character.
+src/vista/Ventana.java:310:	LocalVariableCouldBeFinal: Local variable 'Ey' could be declared final
+src/vista/Ventana.java:310:	LocalVariableCouldBeFinal: Local variable 'Ey' could be declared final
+src/vista/Ventana.java:310:	LocalVariableNamingConventions: The local variable name 'Ey' doesn't match '[a-z][a-zA-Z0-9]*'
+src/vista/Ventana.java:310:	LocalVariableNamingConventions: The local variable name 'Ey' doesn't match '[a-z][a-zA-Z0-9]*'
+src/vista/Ventana.java:310:	ShortVariable: Avoid variables with short names like Ey
+src/vista/Ventana.java:310:	ShortVariable: Avoid variables with short names like Ey
+src/vista/Ventana.java:310:	VariableNamingConventions: Variables should start with a lowercase character, 'Ey' starts with uppercase character.
+src/vista/Ventana.java:310:	VariableNamingConventions: Variables should start with a lowercase character, 'Ey' starts with uppercase character.
+src/vista/Ventana.java:313:	LocalVariableCouldBeFinal: Local variable 'azulp1' could be declared final
+src/vista/Ventana.java:313:	LocalVariableCouldBeFinal: Local variable 'azulp1' could be declared final
+src/vista/Ventana.java:315:	LocalVariableCouldBeFinal: Local variable 'Ax' could be declared final
+src/vista/Ventana.java:315:	LocalVariableCouldBeFinal: Local variable 'Ax' could be declared final
+src/vista/Ventana.java:315:	LocalVariableNamingConventions: The local variable name 'Ax' doesn't match '[a-z][a-zA-Z0-9]*'
+src/vista/Ventana.java:315:	LocalVariableNamingConventions: The local variable name 'Ax' doesn't match '[a-z][a-zA-Z0-9]*'
+src/vista/Ventana.java:315:	ShortVariable: Avoid variables with short names like Ax
+src/vista/Ventana.java:315:	ShortVariable: Avoid variables with short names like Ax
+src/vista/Ventana.java:315:	VariableNamingConventions: Variables should start with a lowercase character, 'Ax' starts with uppercase character.
+src/vista/Ventana.java:315:	VariableNamingConventions: Variables should start with a lowercase character, 'Ax' starts with uppercase character.
+src/vista/Ventana.java:316:	LocalVariableCouldBeFinal: Local variable 'Ay' could be declared final
+src/vista/Ventana.java:316:	LocalVariableCouldBeFinal: Local variable 'Ay' could be declared final
+src/vista/Ventana.java:316:	LocalVariableNamingConventions: The local variable name 'Ay' doesn't match '[a-z][a-zA-Z0-9]*'
+src/vista/Ventana.java:316:	LocalVariableNamingConventions: The local variable name 'Ay' doesn't match '[a-z][a-zA-Z0-9]*'
+src/vista/Ventana.java:316:	ShortVariable: Avoid variables with short names like Ay
+src/vista/Ventana.java:316:	ShortVariable: Avoid variables with short names like Ay
+src/vista/Ventana.java:316:	VariableNamingConventions: Variables should start with a lowercase character, 'Ay' starts with uppercase character.
+src/vista/Ventana.java:316:	VariableNamingConventions: Variables should start with a lowercase character, 'Ay' starts with uppercase character.
+src/vista/Ventana.java:321:	LocalVariableCouldBeFinal: Local variable 'azulp2' could be declared final
+src/vista/Ventana.java:321:	LocalVariableCouldBeFinal: Local variable 'azulp2' could be declared final
+src/vista/Ventana.java:323:	LocalVariableCouldBeFinal: Local variable 'Bx' could be declared final
+src/vista/Ventana.java:323:	LocalVariableCouldBeFinal: Local variable 'Bx' could be declared final
+src/vista/Ventana.java:323:	LocalVariableNamingConventions: The local variable name 'Bx' doesn't match '[a-z][a-zA-Z0-9]*'
+src/vista/Ventana.java:323:	LocalVariableNamingConventions: The local variable name 'Bx' doesn't match '[a-z][a-zA-Z0-9]*'
+src/vista/Ventana.java:323:	ShortVariable: Avoid variables with short names like Bx
+src/vista/Ventana.java:323:	ShortVariable: Avoid variables with short names like Bx
+src/vista/Ventana.java:323:	VariableNamingConventions: Variables should start with a lowercase character, 'Bx' starts with uppercase character.
+src/vista/Ventana.java:323:	VariableNamingConventions: Variables should start with a lowercase character, 'Bx' starts with uppercase character.
+src/vista/Ventana.java:324:	LocalVariableCouldBeFinal: Local variable 'By' could be declared final
+src/vista/Ventana.java:324:	LocalVariableCouldBeFinal: Local variable 'By' could be declared final
+src/vista/Ventana.java:324:	LocalVariableNamingConventions: The local variable name 'By' doesn't match '[a-z][a-zA-Z0-9]*'
+src/vista/Ventana.java:324:	LocalVariableNamingConventions: The local variable name 'By' doesn't match '[a-z][a-zA-Z0-9]*'
+src/vista/Ventana.java:324:	ShortVariable: Avoid variables with short names like By
+src/vista/Ventana.java:324:	ShortVariable: Avoid variables with short names like By
+src/vista/Ventana.java:324:	VariableNamingConventions: Variables should start with a lowercase character, 'By' starts with uppercase character.
+src/vista/Ventana.java:324:	VariableNamingConventions: Variables should start with a lowercase character, 'By' starts with uppercase character.
+src/vista/Ventana.java:330:	LocalVariableCouldBeFinal: Local variable 'azulp3' could be declared final
+src/vista/Ventana.java:330:	LocalVariableCouldBeFinal: Local variable 'azulp3' could be declared final
+src/vista/Ventana.java:332:	LocalVariableCouldBeFinal: Local variable 'Cx' could be declared final
+src/vista/Ventana.java:332:	LocalVariableCouldBeFinal: Local variable 'Cx' could be declared final
+src/vista/Ventana.java:332:	LocalVariableNamingConventions: The local variable name 'Cx' doesn't match '[a-z][a-zA-Z0-9]*'
+src/vista/Ventana.java:332:	LocalVariableNamingConventions: The local variable name 'Cx' doesn't match '[a-z][a-zA-Z0-9]*'
+src/vista/Ventana.java:332:	ShortVariable: Avoid variables with short names like Cx
+src/vista/Ventana.java:332:	ShortVariable: Avoid variables with short names like Cx
+src/vista/Ventana.java:332:	VariableNamingConventions: Variables should start with a lowercase character, 'Cx' starts with uppercase character.
+src/vista/Ventana.java:332:	VariableNamingConventions: Variables should start with a lowercase character, 'Cx' starts with uppercase character.
+src/vista/Ventana.java:333:	LocalVariableCouldBeFinal: Local variable 'Cy' could be declared final
+src/vista/Ventana.java:333:	LocalVariableCouldBeFinal: Local variable 'Cy' could be declared final
+src/vista/Ventana.java:333:	LocalVariableNamingConventions: The local variable name 'Cy' doesn't match '[a-z][a-zA-Z0-9]*'
+src/vista/Ventana.java:333:	LocalVariableNamingConventions: The local variable name 'Cy' doesn't match '[a-z][a-zA-Z0-9]*'
+src/vista/Ventana.java:333:	ShortVariable: Avoid variables with short names like Cy
+src/vista/Ventana.java:333:	ShortVariable: Avoid variables with short names like Cy
+src/vista/Ventana.java:333:	VariableNamingConventions: Variables should start with a lowercase character, 'Cy' starts with uppercase character.
+src/vista/Ventana.java:333:	VariableNamingConventions: Variables should start with a lowercase character, 'Cy' starts with uppercase character.
+src/vista/Ventana.java:338:	LocalVariableCouldBeFinal: Local variable 'azulp4' could be declared final
+src/vista/Ventana.java:338:	LocalVariableCouldBeFinal: Local variable 'azulp4' could be declared final
+src/vista/Ventana.java:340:	LocalVariableCouldBeFinal: Local variable 'Dx' could be declared final
+src/vista/Ventana.java:340:	LocalVariableCouldBeFinal: Local variable 'Dx' could be declared final
+src/vista/Ventana.java:340:	LocalVariableNamingConventions: The local variable name 'Dx' doesn't match '[a-z][a-zA-Z0-9]*'
+src/vista/Ventana.java:340:	LocalVariableNamingConventions: The local variable name 'Dx' doesn't match '[a-z][a-zA-Z0-9]*'
+src/vista/Ventana.java:340:	ShortVariable: Avoid variables with short names like Dx
+src/vista/Ventana.java:340:	ShortVariable: Avoid variables with short names like Dx
+src/vista/Ventana.java:340:	VariableNamingConventions: Variables should start with a lowercase character, 'Dx' starts with uppercase character.
+src/vista/Ventana.java:340:	VariableNamingConventions: Variables should start with a lowercase character, 'Dx' starts with uppercase character.
+src/vista/Ventana.java:341:	LocalVariableCouldBeFinal: Local variable 'Dy' could be declared final
+src/vista/Ventana.java:341:	LocalVariableCouldBeFinal: Local variable 'Dy' could be declared final
+src/vista/Ventana.java:341:	LocalVariableNamingConventions: The local variable name 'Dy' doesn't match '[a-z][a-zA-Z0-9]*'
+src/vista/Ventana.java:341:	LocalVariableNamingConventions: The local variable name 'Dy' doesn't match '[a-z][a-zA-Z0-9]*'
+src/vista/Ventana.java:341:	ShortVariable: Avoid variables with short names like Dy
+src/vista/Ventana.java:341:	ShortVariable: Avoid variables with short names like Dy
+src/vista/Ventana.java:341:	VariableNamingConventions: Variables should start with a lowercase character, 'Dy' starts with uppercase character.
+src/vista/Ventana.java:341:	VariableNamingConventions: Variables should start with a lowercase character, 'Dy' starts with uppercase character.
+src/vista/Ventana.java:346:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Ventana.java:346:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/vista/Ventana.java:346:	LocalVariableCouldBeFinal: Local variable 'img' could be declared final
+src/vista/Ventana.java:346:	LocalVariableCouldBeFinal: Local variable 'img' could be declared final
+src/vista/Ventana.java:351:	CommentSize: Comment is too large: Line too long
+src/vista/Ventana.java:351:	CommentSize: Comment is too large: Line too long
+src/vista/Ventana.java:355:	LocalVariableCouldBeFinal: Local variable 'fon' could be declared final
+src/vista/Ventana.java:355:	LocalVariableCouldBeFinal: Local variable 'fon' could be declared final
+src/vista/Ventana.java:373:	MethodArgumentCouldBeFinal: Parameter 'arg0' is not assigned and could be declared final
+src/vista/Ventana.java:373:	MethodArgumentCouldBeFinal: Parameter 'arg0' is not assigned and could be declared final
+src/vista/Ventana.java:378:	SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+src/vista/Ventana.java:378:	SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+src/vista/Ventana.java:382:	SystemPrintln: System.out.println is used
+src/vista/Ventana.java:382:	SystemPrintln: System.out.println is used
+src/vista/Ventana.java:383:	LocalVariableCouldBeFinal: Local variable 'numero' could be declared final
+src/vista/Ventana.java:383:	LocalVariableCouldBeFinal: Local variable 'numero' could be declared final
+src/vista/Ventana.java:384:	LocalVariableCouldBeFinal: Local variable 'res' could be declared final
+src/vista/Ventana.java:384:	LocalVariableCouldBeFinal: Local variable 'res' could be declared final
+src/vista/Ventana.java:385:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/vista/Ventana.java:385:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/vista/Ventana.java:385:	SystemPrintln: System.out.println is used
+src/vista/Ventana.java:385:	SystemPrintln: System.out.println is used
+src/vista/Ventana.java:386:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/vista/Ventana.java:386:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/vista/Ventana.java:386:	SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+src/vista/Ventana.java:386:	SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+src/vista/Ventana.java:387:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/vista/Ventana.java:387:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/vista/Ventana.java:388:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/vista/Ventana.java:388:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/vista/Ventana.java:391:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/vista/Ventana.java:391:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/vista/Ventana.java:391:	EmptyCatchBlock: Avoid empty catch blocks
+src/vista/Ventana.java:391:	EmptyCatchBlock: Avoid empty catch blocks
+src/vista/Ventana.java:401:	CommentRequired: Public method and constructor comments are required
+src/vista/Ventana.java:401:	CommentRequired: Public method and constructor comments are required
+src/vista/Ventana.java:402:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/vista/Ventana.java:402:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/vista/Ventana.java:406:	CommentRequired: Public method and constructor comments are required
+src/vista/Ventana.java:406:	CommentRequired: Public method and constructor comments are required
+src/vista/Ventana.java:406:	MethodArgumentCouldBeFinal: Parameter 'string' is not assigned and could be declared final
+src/vista/Ventana.java:406:	MethodArgumentCouldBeFinal: Parameter 'string' is not assigned and could be declared final

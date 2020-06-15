@@ -1,0 +1,9 @@
+239482;pedro;valle
+2345345;lorena;valle
+23847;diana;paute
+343803;juan;valle
+29384;pola;paute
+20342983;diego;leksfdj
+456789;LORENA;76543W
+456789;DIANA;76543W
+5678;ANDRES;TYUI
